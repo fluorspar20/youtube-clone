@@ -17,6 +17,8 @@ const VideoDetail = ({video}) => {
                     <Typography variant="h6" > {video.snippet.title} - {video.snippet.channelTitle}  </Typography>
                     <Typography variant="subtitle1" > {video.snippet.channelTitle} </Typography>
                     <Typography variant="subtitle2" > {video.snippet.description} </Typography>
+                    <br />
+                    <Typography variant="subtitle2" > {new Date(video.snippet.publishTime).toLocaleDateString('default', {month: 'long', day: 'numeric', year: 'numeric'})} </Typography>
                 </Paper>
             </>
         )
