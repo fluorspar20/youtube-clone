@@ -25,7 +25,7 @@ class SearchBar extends React.Component{
 
     render(){
         return(
-            <Paper elevation={6} style={{padding: '25px'}}>
+            <Paper elevation={0} style={{padding: '25px'}}>
                 <img src="/assets/yt-logo.jpg" style={{marginRight: 'auto', marginLeft: 'auto'}} height="70" alt="logo" />
                 <form onSubmit={this.handleSubmit}>
                     <TextField fullWidth

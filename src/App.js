@@ -16,7 +16,7 @@ class App extends React.Component{
   }
 
   componentDidMount(){
-    this.handleSubmit('')
+    this.handleSubmit('youtube')
   }
 
 
@@ -32,7 +32,7 @@ class App extends React.Component{
       params: {
         part: 'snippet',
         maxResults: 5,
-        key: 'AIzaSyD-AYYRO7bM9eZ1eDaS1OL7KE8K5Aa45Cw',
+        key: 'AIzaSyCWMA3lQ1cKf8B0CCtugzMewi3_EBVDhSY',
         q: searchTerm
     }
     })

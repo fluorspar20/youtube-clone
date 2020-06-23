@@ -14,7 +14,7 @@ const VideoDetail = ({video}) => {
                     <iframe frameBorder="0" height="100%" width="100%" title="Video Player" src={videoSrc} />
                 </Paper>
                 <Paper elevation={6} style={{padding: '15px'}}>
-                <Typography variant="h5" > {video.snippet.title} - {video.snippet.channelTitle}  </Typography>
+                    <Typography variant="h6" > {video.snippet.title} - {video.snippet.channelTitle}  </Typography>
                     <Typography variant="subtitle1" > {video.snippet.channelTitle} </Typography>
                     <Typography variant="subtitle2" > {video.snippet.description} </Typography>
                 </Paper>
@@ -25,7 +25,7 @@ const VideoDetail = ({video}) => {
     else
         return (
             <p style={{textAlign: 'center'}}>
-            <img src="/assets/loading.gif" style={{marginLeft: 'auto', marginRight: 'auto'}} />
+            <img src="/assets/loading.gif" alt="loading..." style={{marginLeft: 'auto', marginRight: 'auto'}} />
             </p>
         )
 }
