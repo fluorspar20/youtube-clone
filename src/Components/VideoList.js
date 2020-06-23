@@ -8,7 +8,7 @@ const VideoList = ({videos,onVideoSelect}) => {
     return(
         <Grid container spacing={4}>
             <Grid item>
-                <p style={{fontSize: '20px' ,color: 'red' , textShadow: '1px 1px black'}} >Other Suggestions: </p>
+                <p style={{fontSize: '20px' ,color: 'red' , textShadow: '1px 1px black'}} >Other Recommendations: </p>
             </Grid>
             {listOfVideos}
         </Grid>
